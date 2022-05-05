@@ -28,10 +28,8 @@
     background-color:#d7eed8 ;
     grid-template-rows: 25% 1fr;
 }
-@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 .header {
     background-color: #008080;
     color: #ffffff;
     font-size: 1.7rem;
-    font-family: font-family: 'Merienda', cursive;
 }
