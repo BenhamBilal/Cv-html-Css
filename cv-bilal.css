@@ -4,7 +4,6 @@
 }
 .grid {
     display: grid;
-    min-height: 100vh;
     grid-template-columns: 18% 1fr;
     gap: 5px;
 }
@@ -13,23 +12,109 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 100%;
     background-image: linear-gradient(to top left ,#b3dfb5 70%,#016847dd 30%);
 }
+
 .navbar > img {
-    margin-top: 60px;
+    margin-top: 55px;
+    margin-bottom: 40px;
     width: 140px;
     height: 150px;
-    border: solid #88b68aca 3px;
-    border-radius: 120px;
+    border: 3px solid #b3dfb5;
+    border-radius: 50%;
+    background-color: #b3dfb5;
+    box-shadow:  4px 3px rgba(98, 99, 89, 0.621);
+    overflow: hidden;
+}
+
+.fa-solid {
+    font-size: 10px;
 }
 .section {
     display: grid;
     background-color:#d7eed8 ;
-    grid-template-rows: 25% 1fr;
+    grid-template-rows: 1fr 3fr;
 }
 .header {
-    background-color: #008080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #016868;
     color: #ffffff;
     font-size: 1.7rem;
+}
+.header p {
+   font-size: 20px;
+}
+.data-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color : #033427b4;
+}
+.data-container > div {
+    margin: 10px;
+}
+.data-container h2 {
+    text-align: center;
+    font-size : 24px;
+    margin-bottom: 5px;
+}
+.data-container p {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.loisir {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.article {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://img.freepik.com/free-photo/flat-lay-photo-office-desk-with-laptop-copy-space-background_1150-45598.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.article-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cce1cd;
+    border-radius: 40px;
+    width: 500px;
+    margin: 30px;
+    padding: 25px;
+}
+.article-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cce1cd;
+    border-radius: 40px;
+    width: 500px;
+    margin: 30px;
+    padding: 25px;
+}
+.article-bottom-container {
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.article-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cce1cd;
+    border-radius: 40px;
+    width: 500px;
+    margin: 20px;
+    padding: 25px;
+}
+.article h2 {
+    color: rgb(132, 135, 133);
+    border-bottom: solid 1px rgb(182, 181, 181);
+    padding-bottom: 10px;
 }
